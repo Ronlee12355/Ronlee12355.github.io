@@ -145,8 +145,8 @@ img { max-width: 100%; height: auto; }
 
 .profile-avatar {
     flex-shrink: 0;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--border);
@@ -417,8 +417,8 @@ img { max-width: 100%; height: auto; }
     .profile-contact { justify-content: center; }
 
     .profile-avatar {
-        width: 120px;
-        height: 120px;
+        width: 135px;
+        height: 135px;
     }
 
     .profile-name { font-size: 1.4rem; }
@@ -443,8 +443,8 @@ img { max-width: 100%; height: auto; }
     .section-title { font-size: 1.15rem; }
 
     .profile-avatar {
-        width: 100px;
-        height: 100px;
+        width: 112px;
+        height: 112px;
     }
 
     .nav-links a { padding: 6px 12px; font-size: 0.82rem; }
