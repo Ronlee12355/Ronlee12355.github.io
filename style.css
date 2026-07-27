@@ -456,11 +456,23 @@ img { max-width: 100%; height: auto; }
         height: 112px;
     }
 
-    .nav-links a { padding: 6px 8px; font-size: 0.75rem; }
+    .navbar-inner {
+        justify-content: center;
+        gap: 6px;
+    }
 
-    .lang-switch a {
+    .nav-links { gap: 2px; }
+
+    .nav-links a {
         padding: 4px 6px;
         font-size: 0.72rem;
+    }
+
+    .lang-switch { gap: 2px; }
+
+    .lang-switch a {
+        padding: 4px 5px;
+        font-size: 0.7rem;
     }
 
     .awards-list { grid-template-columns: 1fr; }
