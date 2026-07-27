@@ -428,10 +428,19 @@ img { max-width: 100%; height: auto; }
     .timeline-date { width: auto; }
 
     .navbar-inner {
-        flex-wrap: wrap;
         height: auto;
-        padding: 10px 16px;
-        gap: 8px;
+        padding: 10px 12px;
+        gap: 4px;
+    }
+
+    .nav-links a {
+        padding: 6px 8px;
+        font-size: 0.78rem;
+    }
+
+    .lang-switch a {
+        padding: 4px 8px;
+        font-size: 0.75rem;
     }
 }
 
