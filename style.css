@@ -164,6 +164,7 @@ img { max-width: 100%; height: auto; }
 .profile {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 36px;
     flex-wrap: wrap;
 }
@@ -179,7 +180,11 @@ img { max-width: 100%; height: auto; }
     background: #e2e8f0;
 }
 
-.profile-info { flex: 1; min-width: 260px; }
+.profile-info {
+    flex: 0 1 auto;
+    min-width: 260px;
+    max-width: 620px;
+}
 
 .profile-name {
     font-size: 1.8rem;
