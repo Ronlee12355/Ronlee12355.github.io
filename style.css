@@ -75,8 +75,11 @@ img { max-width: 100%; height: auto; }
 }
 
 .nav-links a {
-    display: block;
-    padding: 8px 18px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.2;
+    padding: 7px 18px;
+    border: 1px solid transparent;
     border-radius: 6px;
     font-size: 0.9rem;
     font-weight: 500;
@@ -91,10 +94,19 @@ img { max-width: 100%; height: auto; }
     text-decoration: none;
 }
 
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
 .lang-switch a {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.2;
     font-size: 0.85rem;
     font-weight: 500;
-    padding: 6px 12px;
+    padding: 7px 12px;
     border: 1px solid var(--border);
     border-radius: 6px;
     color: var(--text-secondary);
