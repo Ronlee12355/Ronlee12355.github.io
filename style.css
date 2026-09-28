@@ -449,16 +449,11 @@ img { max-width: 100%; height: auto; }
 .pub-item .tag.corr    { background: #fef3c7; color: #92400e; }
 .pub-item .tag.collab  { background: #f3f4f6; color: #6b7280; }
 
-/* Journal metrics badges (IF / JCR quartile) */
+/* Journal metric badge (IF) */
 .pub-item .tag.if {
-    background: #dcfce7;
-    color: #166534;
+    background: #ffe4e6;
+    color: #9f1239;
     font-variant-numeric: tabular-nums;
-}
-
-.pub-item .tag.jcr {
-    background: #fee2e2;
-    color: #991b1b;
 }
 
 .pub-item .links {
