@@ -480,6 +480,12 @@ img { max-width: 100%; height: auto; }
     border-top: 1px solid var(--border);
 }
 
+.footer .visitor-badge {
+    display: block;
+    margin: 0 auto 12px;
+    height: 20px;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
     html { scroll-padding-top: 120px; }
