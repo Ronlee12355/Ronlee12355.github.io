@@ -13,7 +13,7 @@
     --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
     --radius: 8px;
     --max-width: 960px;
-    --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* ===== Reset ===== */
@@ -266,6 +266,14 @@ img { max-width: 100%; height: auto; }
     background: var(--primary-light);
     text-decoration: none;
     box-shadow: 0 5px 14px rgba(26,86,219,0.16);
+}
+
+/* Inline SVG icons (no external icon font) */
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.125em;
 }
 
 /* ===== Bio ===== */
