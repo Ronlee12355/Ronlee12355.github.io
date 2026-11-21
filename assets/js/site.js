@@ -52,6 +52,14 @@
         if (window.innerWidth > 860) setMenu(false);
     });
 
+    /* ---------------- language preference ---------------- */
+    [].slice.call(document.querySelectorAll(".lang-switch")).forEach(function (a) {
+        a.addEventListener("click", function () {
+            var target = (a.getAttribute("hreflang") || "").toLowerCase();
+            try { localStorage.setItem("lang", target.indexOf("zh") === 0 ? "zh" : "en"); } catch (e) {}
+        });
+    });
+
     /* ---------------- reveal on scroll ---------------- */
     var revealEls = [].slice.call(document.querySelectorAll("[data-reveal]"));
     if ("IntersectionObserver" in window && !reduce) {
