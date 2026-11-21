@@ -1,0 +1,14 @@
+# local build source (not part of the published site)
+build.py
+content.py
+assets/icons/
+
+# caches / local files
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# temporary QA pages
+qa*.html
+og.html

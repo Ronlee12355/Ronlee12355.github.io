@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>软件与数据库 · 李姜</title>
+<meta name="description" content="李姜开发的数据库与工具：ncRNA-eQTL、PCsRNAdb、GCclassifier、STAR Protocols Code 等。">
+<meta name="author" content="Jiang Li">
+<link rel="canonical" href="https://cv.ronleecww.cn/software.html">
+<link rel="alternate" hreflang="zh-CN" href="https://cv.ronleecww.cn/software.html">
+<link rel="alternate" hreflang="en" href="https://cv.ronleecww.cn/en/software.html">
+<link rel="alternate" hreflang="x-default" href="https://cv.ronleecww.cn/software.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jiang Li">
+<meta property="og:title" content="软件与数据库 · 李姜">
+<meta property="og:description" content="李姜开发的数据库与工具：ncRNA-eQTL、PCsRNAdb、GCclassifier、STAR Protocols Code 等。">
+<meta property="og:url" content="https://cv.ronleecww.cn/software.html">
+<meta property="og:image" content="https://cv.ronleecww.cn/assets/img/og.jpg">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="软件与数据库 · 李姜">
+<meta name="twitter:description" content="李姜开发的数据库与工具：ncRNA-eQTL、PCsRNAdb、GCclassifier、STAR Protocols Code 等。">
+<meta name="twitter:image" content="https://cv.ronleecww.cn/assets/img/og.jpg">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/site.css">
+
+<script>document.documentElement.classList.add('js');</script>
+
+</head>
+<body class="lang-zh page-software">
+<a class="skip" href="#main">跳到主要内容</a>
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="首页">
+      <img class="brand-logo" src="assets/img/logo.svg" width="34" height="34" alt="">
+      <span class="brand-text">李姜<em>Jiang Li</em></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航"><a class="nav-link" href="index.html">首页</a><a class="nav-link" href="publications.html">论文</a><a class="nav-link is-active" href="software.html" aria-current="page">软件</a></nav>
+    <div class="nav-tools">
+      <a class="lang-switch" href="en/software.html" hreflang="en" aria-label="English">EN</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="菜单">
+        <svg class="icon icon--line icon-burger" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="icon icon--line icon-close" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="nav-progress" id="navProgress" aria-hidden="true"></div>
+</header>
+<div class="mobile-nav" id="mobileNav" hidden>
+  <nav aria-label="移动导航"><a href="index.html">首页</a><a href="publications.html">论文</a><a href="software.html">软件</a>
+  </nav>
+</div>
+<main id="main">
+<header class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">SOFTWARE / DATABASES / TOOLS</p>
+    <h1 class="page-title">软件与数据库</h1>
+    <p class="page-lead">把一次性的分析沉淀成别人能用的东西：两个泛癌数据库、一个 R 包，以及可复现的流程代码。</p>
+    <dl class="mini-stats">
+      <div><dt>软件与数据库</dt><dd>4</dd></div>
+      <div><dt>数据库</dt><dd>2</dd></div>
+      <div><dt>工具与流程</dt><dd>2</dd></div>
+    </dl>
+  </div>
+</header>
+<section class="section section--software">
+  <div class="wrap">
+    <h2 class="group-head" data-reveal><span>数据库</span></h2>
+    <div class="sw-grid"><article class="sw-card" id="sw-ncrna-eqtl" data-reveal>
+  <div class="sw-top">
+    <span class="chip-kind kind--db">数据库</span>
+    <span class="sw-year">2020</span>
+  </div>
+  <h3 class="sw-name">ncRNA-eQTL<span class="sw-icon"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="7" ry="3"/><path d="M5 5v6c0 1.7 3.1 3 7 3s7-1.3 7-3V5"/><path d="M5 11v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span></h3>
+  <p class="sw-tag">SNP × 非编码 RNA 的泛癌表达图谱</p>
+  <p class="sw-desc">基于 TCGA 33 种癌症、8,700 余例样本的基因型与 ncRNA 表达谱，系统鉴定顺式与反式 ncRNA-eQTL 共 680 余万对，并关联患者生存与 GWAS 风险位点；支持在线检索、浏览与批量下载。</p>
+  <ul class="sw-meta"><li>33 种癌症</li><li>8,700+ 样本</li><li>680 万+ eQTL 对</li></ul>
+  <div class="sw-foot">
+    <span class="sw-role">第一作者</span>
+    <div class="sw-links"><a class="sw-link sw-link--primary" href="http://ibi.hzau.edu.cn/ncRNA-eQTL/" target="_blank" rel="noopener"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>访问数据库</a><a class="sw-link" href="https://doi.org/10.1093/nar/gkz711" target="_blank" rel="noopener"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 13.5a4.5 4.5 0 0 0 6.4 0l2-2a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M13.5 10.5a4.5 4.5 0 0 0-6.4 0l-2 2a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg>论文 DOI</a></div>
+  </div>
+</article><article class="sw-card" id="sw-pcsrnadb" data-reveal>
+  <div class="sw-top">
+    <span class="chip-kind kind--db">数据库</span>
+    <span class="sw-year">2026</span>
+  </div>
+  <h3 class="sw-name">PCsRNAdb<span class="sw-icon"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="7" ry="3"/><path d="M5 5v6c0 1.7 3.1 3 7 3s7-1.3 7-3V5"/><path d="M5 11v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span></h3>
+  <p class="sw-tag">泛癌小非编码 RNA 的检索与分析平台</p>
+  <p class="sw-desc">整合 190 套小 RNA 测序数据、11,114 个样本、19 种癌症，覆盖 miRNA、piRNA、tDR、rRF 等多类小 RNA；提供差异表达、生存分析、表达谱与调控网络四类在线分析。</p>
+  <ul class="sw-meta"><li>19 种癌症</li><li>11,114 个样本</li><li>4 大分析模块</li></ul>
+  <div class="sw-foot">
+    <span class="sw-role">共同第一作者</span>
+    <div class="sw-links"><a class="sw-link sw-link--primary" href="http://pcsrnadb.cloudna.cn" target="_blank" rel="noopener"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>访问数据库</a><a class="sw-link" href="https://doi.org/10.1093/nar/gkaf992" target="_blank" rel="noopener"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 13.5a4.5 4.5 0 0 0 6.4 0l2-2a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M13.5 10.5a4.5 4.5 0 0 0-6.4 0l-2 2a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg>论文 DOI</a></div>
+  </div>
+</article></div>
+    <h2 class="group-head" data-reveal><span>工具与流程</span></h2>
+    <div class="sw-grid"><article class="sw-card" id="sw-gcclassifier" data-reveal>
+  <div class="sw-top">
+    <span class="chip-kind kind--tool">工具</span>
+    <span class="sw-year">2024</span>
+  </div>
+  <h3 class="sw-name">GCclassifier<span class="sw-icon"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></svg></span></h3>
+  <p class="sw-tag">一张表达谱，判断胃癌分子亚型</p>
+  <p class="sw-desc">面向胃癌分子分型的 R 包，内置分类器并配套交互式网页服务器；即使没有编程基础，也可以上传表达谱直接获得亚型预测。</p>
+  <ul class="sw-meta"><li>R 包</li><li>网页服务器</li><li>多数据集验证</li></ul>
+  <div class="sw-foot">
+    <span class="sw-role">第一作者</span>
+    <div class="sw-links"><a class="sw-link" href="https://github.com/Ronlee12355/GCclassifier" target="_blank" rel="noopener"><svg class="icon icon--brand" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>GitHub 仓库</a><a class="sw-link" href="https://doi.org/10.1016/j.csbj.2024.01.010" target="_blank" rel="noopener"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 13.5a4.5 4.5 0 0 0 6.4 0l2-2a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M13.5 10.5a4.5 4.5 0 0 0-6.4 0l-2 2a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg>论文 DOI</a></div>
+  </div>
+</article><article class="sw-card" id="sw-star-protocol-code" data-reveal>
+  <div class="sw-top">
+    <span class="chip-kind kind--code">流程代码</span>
+    <span class="sw-year">2025</span>
+  </div>
+  <h3 class="sw-name">STAR Protocols Code<span class="sw-icon"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"/></svg></span></h3>
+  <p class="sw-tag">肿瘤预后建模与分子分型的可复现代码</p>
+  <p class="sw-desc">配套 STAR Protocols 流程论文的 R 代码与演示数据：从基因签名建模、亚型识别与分类器训练，到亚型特异调控网络推断与药敏分析，端到端可复现。</p>
+  <ul class="sw-meta"><li>R 代码</li><li>演示数据</li><li>端到端流程</li></ul>
+  <div class="sw-foot">
+    <span class="sw-role">第一作者</span>
+    <div class="sw-links"><a class="sw-link" href="https://github.com/Ronlee12355/STAR_PROTOCOL_Code" target="_blank" rel="noopener"><svg class="icon icon--brand" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>GitHub 仓库</a><a class="sw-link" href="https://doi.org/10.1016/j.xpro.2025.104130" target="_blank" rel="noopener"><svg class="icon icon--line" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 13.5a4.5 4.5 0 0 0 6.4 0l2-2a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M13.5 10.5a4.5 4.5 0 0 0-6.4 0l-2 2a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg>论文 DOI</a></div>
+  </div>
+</article></div>
+    <p class="sw-note">以上工具均可公开访问或开源；引用方式请见各条目对应的论文。</p>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div class="foot-copy">
+      <span>© 2026 Jiang Li. All rights reserved.</span>
+      <span>Last updated 2026.11</span>
+    </div>
+    <img class="visitor-badge" src="https://visitor-badge.laobi.icu/badge?page_id=ronlee12355.lijiang" alt="访问量" height="20" loading="lazy">
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
