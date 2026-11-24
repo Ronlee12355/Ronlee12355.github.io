@@ -8,7 +8,9 @@ I am a Research Assistant Professor at the Institute of Cell and Gene Technology
 
 My work uses artificial intelligence and multi-omics data to study cancer precision subtyping, non-coding RNA regulatory mechanisms, and clinical translation. I build bioinformatics tools and pan-cancer databases for tumour diagnosis and prognosis.
 
-## Research Interests
+## Research
+
+My research path runs from clinical questions to multi-omics mechanisms, interpretable models and clinical decisions. The full path, three research programs and representative papers are on the **[Research page](https://cv.ronleecww.cn/research.html)**.
 
 - **Cancer subtyping** — machine-learning molecular subtypes and prognostic models linked to clinical response and survival.
 - **Non-coding RNA regulatory mechanisms** — subtype-specific lncRNA / miRNA / piRNA networks and their master regulators.
@@ -30,6 +32,7 @@ My work uses artificial intelligence and multi-omics data to study cancer precis
 
 ## Contact
 
+- Email: [lijiang@suat-sz.edu.cn](mailto:lijiang@suat-sz.edu.cn)
 - Website: [cv.ronleecww.cn](https://cv.ronleecww.cn)
 - Google Scholar: [xECjOyEAAAAJ](https://scholar.google.com/citations?user=xECjOyEAAAAJ&hl=en)
 - ORCID: [0000-0001-9226-0536](https://orcid.org/0000-0001-9226-0536)
